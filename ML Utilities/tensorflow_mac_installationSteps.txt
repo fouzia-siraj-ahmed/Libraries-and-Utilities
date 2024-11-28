@@ -1,0 +1,9 @@
+TensorFlow can be installed on Apple silicon Macs using the following steps:
+
+xcode-select --install
+
+python -m pip install -U pip
+
+python -m pip install tensorflow-macos
+
+python -m pip install tensorflow-metal
